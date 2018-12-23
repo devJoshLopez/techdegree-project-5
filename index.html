@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+  <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+  <link href="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+  <section id="searchContainer" data-featherlight-gallery data-featherlight-filter="a">
+    <h1 class="page-title">Image Gallery With Lightbox!</h1>
+
+    <input type="text" id="myInput" onkeyup="search()" placeholder="Search" title="Type in anthing">
+    <div class="flexybox">
+    <a href="/photos/01.jpg">
+        <img src="/photos/thumbnails/01.jpg" alt="Hay Bales" data-featherlight-caption="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
+    </a>
+
+    <a href="/photos/02.jpg">
+        <img src="/photos/thumbnails/02.jpg" alt="Lake" data-featherlight-caption="The lake was so calm today. We had a great view of the snow on the mountains from here.">
+    </a>
+
+    <a href="/photos/03.jpg">
+        <img src="/photos/thumbnails/03.jpg" alt="Canyon" data-featherlight-caption="I hiked to the top of the mountain and got this picture of the canyon and trees below.">
+    </a>
+
+    <a href="/photos/04.jpg">
+        <img src="/photos/thumbnails/04.jpg" alt="Iceberg" data-featherlight-caption="It was amazing to see an iceberg up close, it was so cold but didn’t snow today.">
+    </a>
+
+    <a href="/photos/05.jpg">
+        <img src="/photos/thumbnails/05.jpg" alt="Desert" data-featherlight-caption="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons.">
+    </a>
+
+    <a href="/photos/06.jpg">
+        <img src="/photos/thumbnails/06.jpg" alt="Fall" data-featherlight-caption="Fall is coming, I love when the leaves on the trees start to change color.">
+    </a>
+
+    <a href="/photos/07.jpg">
+        <img src="/photos/thumbnails/07.jpg" alt="Plantation" data-featherlight-caption="I drove past this plantation yesterday, everything is so green!">
+    </a>
+
+    <a href="/photos/08.jpg">
+        <img src="/photos/thumbnails/08.jpg" alt="Dunes" data-featherlight-caption="My summer vacation to the Oregon Coast. I love the sandy dunes!">
+    </a>
+
+    <a href="/photos/09.jpg">
+        <img src="/photos/thumbnails/09.jpg" alt="Countryside Lane" data-featherlight-caption="We enjoyed a quiet stroll down this countryside lane.">
+    </a>
+
+    <a href="/photos/10.jpg">
+        <img src="/photos/thumbnails/10.jpg" alt="Sunset" data-featherlight-caption="Sunset at the coast! The sky turned a lovely shade of orange.">
+    </a>
+
+    <a href="/photos/11.jpg">
+        <img src="/photos/thumbnails/11.jpg" alt="Cave" data-featherlight-caption="I did a tour of a cave today and the view of the landscape below was breathtaking.">
+    </a>
+
+    <a href="/photos/12.jpg">
+        <img src="/photos/thumbnails/12.jpg" alt="Bluebells" data-featherlight-caption="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in.">
+    </a>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.min.js" ></script>
+  <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.13/release/featherlight.gallery.min.js"></script>
+  <script src="/js/scripts.js"></script>
+</body>
+</html>

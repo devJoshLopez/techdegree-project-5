@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+.page-title {
+  display: none;
+}
+
+#searchContainer {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#myInput {
+  display: block;
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 420px;
+  font-size: 16px;
+  padding: 12px 20px 12px 20px;
+  border: 1px solid #ddd;
+  margin: 4em auto 2em auto;
+}
+
+.flexybox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.flexybox a {
+  text-decoration: none;
+  width: 25%;
+  text-align: center;
+  margin-bottom: 42px;
+}
+
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 25px;
+    right: 25px;
+    color: white;
+    background: black;
+    padding: 10px;
+}
