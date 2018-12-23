@@ -9,6 +9,7 @@
 #searchContainer {
   max-width: 960px;
   margin: 0 auto;
+  padding: 1em;
 }
 
 #myInput {
@@ -32,17 +33,34 @@
 
 .flexybox a {
   text-decoration: none;
-  width: 25%;
+  width: 50%;
   text-align: center;
-  margin-bottom: 42px;
+  padding: 1em;
+  margin-bottom: .5em
+}
+
+.flexybox img {
+  width: 100%;
+  transition: transform .2s ease-in;
+}
+
+.flexybox a:hover img {
+  transform: scale(1.1);
 }
 
 .caption {
-    position: absolute;
-    bottom: 0;
-    left: 25px;
-    right: 25px;
-    color: white;
-    background: black;
-    padding: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 25px;
+  right: 25px;
+  color: white;
+  background: black;
+  padding: 10px;
+}
+
+/* If screen size is more than 768px wide */
+@media screen and (min-width: 768px) {
+  .flexybox a {
+    width: 25%;
+  }
 }
