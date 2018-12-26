@@ -54,7 +54,7 @@
   left: 25px;
   right: 25px;
   color: white;
-  background: black;
+  background: rgba(0,0,0,0.4);
   padding: 10px;
 }
 
