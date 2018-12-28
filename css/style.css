@@ -63,7 +63,10 @@
   .flexybox a {
     width: 25%;
   }
-
+  
+  .featherlight { /* lightbox responsive */
+    max-width: 100%;
+  }
 }
 
 @media screen and (min-width: 1025px) {
