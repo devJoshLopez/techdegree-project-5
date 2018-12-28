@@ -7,7 +7,7 @@ function search() {
   a = searchContainer.getElementsByTagName("a");
   for (i = 0; i < a.length; i++) {
     img = a[i].getElementsByTagName("img")[0];
-    txtValue = img.alt;
+    txtValue = img.getAttribute('data-featherlight-caption');
     if (txtValue.toUpperCase().indexOf(filter) > -1) {
       a[i].style.display = "";
     } else {
